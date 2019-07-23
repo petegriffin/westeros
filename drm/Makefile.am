@@ -40,7 +40,8 @@ libwesteros_gl_la_CFLAGS= $(AM_CFLAGS) -D_GNU_SOURCE
 libwesteros_gl_la_LDFLAGS= \
    $(AM_LDFLAGS) \
    -ldrm \
-   -lgbm
+   -lgbm \
+   -lEGL
 
 pkgconfigdir = $(libdir)/pkgconfig
    
